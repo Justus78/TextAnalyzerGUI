@@ -33,7 +33,7 @@ namespace TextAnalyzerGUI {
             var sentences = t.GetSentenceCount();
             int wordCount = t.GetWordCount();
             int uniqueWordCount = t.GetUniqueWordCount();
-            // add the unique words to a dictionary object
+            // add the unique words to a dictionary objec
             wordDic = t.GetUniqueWords();
 
             // set the results to the label
